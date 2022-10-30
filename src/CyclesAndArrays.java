@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class CyclesAndArrays {
     public static void main(String[] args) {
-/*
         //cycle "while"
         System.out.println("Если хотите выйти из цикла, напишите 'Exit'");
         Scanner scanner = new Scanner(System.in);
@@ -45,7 +44,6 @@ public class CyclesAndArrays {
             }
             System.out.println("Отлично, нам это подходит!");
         }
- */
         //array
         String[] channels = {"Первый канал", "Второй канал", "Третьий канал", "Четвертый канал", "Пятый канал", "Шестой канал", "Седьмой канал", "Восьмой канал", "Девятый канал", "Десятый канал"};
         System.out.println("Введите номер канал:");
