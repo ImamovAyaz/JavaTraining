@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class CyclesAndArrays {
     public static void main(String[] args) {
-/*
+
         //cycle "while"
         System.out.println("Если хотите выйти из цикла, напишите 'Exit'");
         Scanner scanner = new Scanner(System.in);
@@ -30,14 +30,10 @@ public class CyclesAndArrays {
         System.out.println("Введите число:");
         Scanner scanner2 = new Scanner(System.in);
         int number = scanner2.nextInt();
-        if ((number > 0) && (number <=100))
-        {
+        if ((number > 0) && (number <= 100)) {
             System.out.println("Отлично, нам это подходит!");
-        }
-        else
-        {
-            while ((number <0) || (number >100))
-            {
+        } else {
+            while ((number < 0) || (number > 100)) {
                 System.out.println("Введено некорректное число. Ожидается число от 0 до 100");
                 System.out.println("Введите число повторно:");
                 Scanner newScanner = new Scanner(System.in);
@@ -45,7 +41,6 @@ public class CyclesAndArrays {
             }
             System.out.println("Отлично, нам это подходит!");
         }
- */
         //array
         String[] channels = {"Первый канал", "Второй канал", "Третьий канал", "Четвертый канал", "Пятый канал", "Шестой канал", "Седьмой канал", "Восьмой канал", "Девятый канал", "Десятый канал"};
         System.out.println("Введите номер канал:");
