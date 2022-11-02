@@ -81,6 +81,5 @@ public class InputOutputData {
         {
             System.out.println(word);
         }
-
     }
 }
