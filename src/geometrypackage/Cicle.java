@@ -24,7 +24,7 @@ public class Cicle implements Shape {
         return PI * (Math.pow(raduis, 2));
     }
 
-    static final double PI = 3.14;
+    private final double PI = 3.14;
 
     private double raduis;
 
