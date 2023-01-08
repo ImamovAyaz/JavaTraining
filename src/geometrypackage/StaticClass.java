@@ -25,7 +25,7 @@ public class StaticClass {
         return true;
     }
 
-    static public boolean checkFile(String fileNamePath) throws FileNotFoundException, Exception{
+    static public boolean checkFile(String fileNamePath) throws FileNotFoundException, Exception {
 
         // 1) Open file
         // 1.5) Can't find file

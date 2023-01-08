@@ -4,7 +4,7 @@ import java.util.List;
 
 public class MyInfo {
     public static void main(String[] args) {
-        String[] hobbies = {"film","music","game","crypto"};
+        String[] hobbies = {"film", "music", "game", "crypto"};
         InfoClass MyInfo = new InfoClass("Ayaz", "Imamov", 23, hobbies, 12345677890L, 169.2, 67.6);
 
 

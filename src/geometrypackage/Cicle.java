@@ -1,6 +1,8 @@
 package geometrypackage;
 
 public class Cicle implements Shape {
+    private final double PI = 3.14;
+    private double raduis;
 
     public Cicle() {
         raduis = 0;
@@ -23,9 +25,4 @@ public class Cicle implements Shape {
         // return PI * raduis * raduis;
         return PI * (Math.pow(raduis, 2));
     }
-
-    private final double PI = 3.14;
-
-    private double raduis;
-
 }

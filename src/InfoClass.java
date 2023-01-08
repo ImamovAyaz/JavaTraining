@@ -54,35 +54,35 @@ public class InfoClass {
         this.age = age;
     }
 
-    public String[] getHobbies(){
+    public String[] getHobbies() {
         return this.hobbies;
     }
 
-    public void setHobbies(String[] hobbies){
+    public void setHobbies(String[] hobbies) {
         this.hobbies = hobbies;
     }
 
-    public Long getInn(){
+    public Long getInn() {
         return this.inn;
     }
 
-    public void setInn(Long inn){
+    public void setInn(Long inn) {
         this.inn = inn;
     }
 
-    public Double getHeight(){
+    public Double getHeight() {
         return this.height;
     }
 
-    public void setHeight(Double height){
+    public void setHeight(Double height) {
         this.height = height;
     }
 
-    public Double getWeight(){
+    public Double getWeight() {
         return this.weight;
     }
 
-    public void setWeight(Double weight){
+    public void setWeight(Double weight) {
         this.weight = weight;
     }
 }

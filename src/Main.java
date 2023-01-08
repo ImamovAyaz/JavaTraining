@@ -11,13 +11,12 @@ public class Main {
 
         double a = 10.3;
         double b = 9.8;
-        int c = (int)a + (int)b;
-        int d = (int)(a + b);
+        int c = (int) a + (int) b;
+        int d = (int) (a + b);
         System.out.println(c);
         System.out.println(d);
 
-        for (int i = 0; i < 10; i++)
-        {
+        for (int i = 0; i < 10; i++) {
             double localVariable = 10.5;
             System.out.println(localVariable);
             // double length = 10.5;
@@ -30,7 +29,7 @@ public class Main {
 
         //Date creationDate = new Date(600000000);
 
-        LocalDate creationDate = LocalDate.of(1999,01,26);
+        LocalDate creationDate = LocalDate.of(1999, 01, 26);
         LocalDate lastMofificationDate = LocalDate.now();
 
         System.out.println(lastMofificationDate);

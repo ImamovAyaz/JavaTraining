@@ -77,8 +77,7 @@ public class InputOutputData {
         String inputLine3 = scanner1.nextLine();
         String[] array = inputLine3.split(" ");
         System.out.println("Разделим строку на пробелы: ");
-        for (String word : array)
-        {
+        for (String word : array) {
             System.out.println(word);
         }
     }

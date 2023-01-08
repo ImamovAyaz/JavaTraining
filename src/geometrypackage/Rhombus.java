@@ -1,8 +1,24 @@
 package geometrypackage;
 
-public class Rhombus implements Shape{
-    private double lenght;
+public class Rhombus implements Shape {
+    private double length;
     private double high;
+
+    public Rhombus() {
+    }
+
+    public Rhombus(double lenght, double high) {
+        this.length = lenght;
+        this.high = high;
+    }
+
+    public void setLength(double length) {
+        this.length = length;
+    }
+
+    public double getLength() {
+        return length;
+    }
 
     public void setHigh(double high) {
         this.high = high;
@@ -12,23 +28,8 @@ public class Rhombus implements Shape{
         return high;
     }
 
-    public void setLenght(double lenght) {
-        this.lenght = lenght;
-    }
-
-    public double getLenght() {
-        return lenght;
-    }
-
-    public Rhombus(){
-    }
-
-    public Rhombus(double lenght, double high){
-        this.lenght = lenght;
-        this.high = high;
-    }
     @Override
     public double getArea() {
-        return lenght * high;
+        return length * high;
     }
 }

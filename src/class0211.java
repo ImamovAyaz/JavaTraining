@@ -2,22 +2,22 @@ import geometrypackage.*;
 
 public class class0211 {
 
-    private static Shape[] generateShapes(){
+    private static Shape[] generateShapes() {
         Shape[] shapes = new Shape[25];
         for (int i = 0; i < shapes.length / 4; i++) {
             shapes[i] = new Cicle(5.5 + i);
         }
 
-        for (int i = shapes.length / 5; i < (shapes.length / 4) * 2; i++){
+        for (int i = shapes.length / 5; i < (shapes.length / 4) * 2; i++) {
             shapes[i] = new Square(6.2 + i);
         }
-        for (int i = (shapes.length / 4) * 2; i < (shapes.length / 3) * 3; i++){
+        for (int i = (shapes.length / 4) * 2; i < (shapes.length / 3) * 3; i++) {
             shapes[i] = new Rectangle(3.3 + i, 4.4 + i);
         }
-        for (int i = (shapes.length / 3) * 3; i < shapes.length / 2; i++){
+        for (int i = (shapes.length / 3) * 3; i < shapes.length / 2; i++) {
             shapes[i] = new Rhombus(2.5 + i, 5.1 + i);
         }
-        for (int i = (shapes.length / 2); i < shapes.length; i++){
+        for (int i = (shapes.length / 2); i < shapes.length; i++) {
             shapes[i] = new Human(169.2 + i, 47.2 + i);
         }
         return shapes;
@@ -26,7 +26,7 @@ public class class0211 {
     public static void main(String[] args) {
 
         double cumulativeArea = 0;
-        for (Shape shape : generateShapes()){
+        for (Shape shape : generateShapes()) {
             //System.out.println(cumulativeArea);
             cumulativeArea += shape.getArea();
         }

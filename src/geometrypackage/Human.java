@@ -1,8 +1,17 @@
 package geometrypackage;
 
-public class Human implements Shape{
+public class Human implements Shape {
     private double length;
     private double weight;
+
+    public Human() {
+
+    }
+
+    public Human(double length, double weight) {
+        this.length = length;
+        this.weight = weight;
+    }
 
     public double getLength() {
         return length;
@@ -17,15 +26,6 @@ public class Human implements Shape{
     }
 
     public void setWeight(double weight) {
-        this.weight = weight;
-    }
-
-    public Human() {
-
-    }
-
-    public Human(double length, double weight) {
-        this.length = length;
         this.weight = weight;
     }
 

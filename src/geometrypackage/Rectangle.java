@@ -2,6 +2,9 @@ package geometrypackage;
 
 public class Rectangle implements Shape {
 
+    private double length;
+    private double high;
+
     public Rectangle() {
         length = 0;
     }
@@ -9,11 +12,6 @@ public class Rectangle implements Shape {
     public Rectangle(double length, double high) {
         this.length = length;
         this.high = high;
-    }
-
-    @Override
-    public double getArea() {
-        return length * high;
     }
 
     public double getLength() {
@@ -32,7 +30,9 @@ public class Rectangle implements Shape {
         this.high = high;
     }
 
-    private double length;
-    private double high;
+    @Override
+    public double getArea() {
+        return length * high;
+    }
 }
 

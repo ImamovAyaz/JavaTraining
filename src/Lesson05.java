@@ -40,11 +40,10 @@ public class Lesson05 {
         double calculationResult = 0;
         double delta = 0.000001;
         double currentDelta = 10;
-        while (true)
-        {
+        while (true) {
             //do some calculation
-            calculationResult =12345;
-            if(currentDelta <= delta){
+            calculationResult = 12345;
+            if (currentDelta <= delta) {
                 break;
             }
         }

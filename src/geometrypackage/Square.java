@@ -1,27 +1,26 @@
 package geometrypackage;
 
-public class Square implements Shape{
+public class Square implements Shape {
+    private double length;
 
-    public Square(){
-        lenght = 0;
+    public Square() {
+        length = 0;
     }
 
-    public Square(double lenght){
-        this.lenght = lenght;
+    public Square(double lenght) {
+        this.length = lenght;
+    }
+
+    public double getLength() {
+        return length;
+    }
+
+    public void setLength(double length) {
+        this.length = length;
     }
 
     @Override
     public double getArea() {
-        return lenght * lenght;
+        return length * length;
     }
-
-    public double getLenght() {
-        return lenght;
-    }
-
-    public void setLenght(double lenght) {
-        this.lenght = lenght;
-    }
-
-    private double lenght;
 }

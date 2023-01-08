@@ -3,8 +3,8 @@ package geometrypackage;
 public interface Shape {
     double getArea();
 
- //   double getComplicatedArea();
+    //   double getComplicatedArea();
 
- //   double getSuperComplicatedArea();
+    //   double getSuperComplicatedArea();
 
 }

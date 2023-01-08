@@ -11,8 +11,8 @@ public class Main {
         Documents docDocument = new DOCdocument("doc", "/path/DOCDocument");
         Documents tableDocument = new TableDocument("table", "/path/TableDocument");
 
-        List<Documents> allDocuments = Arrays.asList(pdfDocuments,docDocument,tableDocument);
-        for (Documents document : allDocuments){
+        List<Documents> allDocuments = Arrays.asList(pdfDocuments, docDocument, tableDocument);
+        for (Documents document : allDocuments) {
             document.AddText("TEXT FOR " + document.toString());
         }
     }

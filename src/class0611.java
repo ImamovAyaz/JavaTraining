@@ -28,11 +28,9 @@ public class class0611 {
             }
 
             StaticClass.checkFile("wrwer");
-        } catch (FileNotFoundException ex)
-        {
+        } catch (FileNotFoundException ex) {
             System.out.println("");
-        }
-        catch (Exception ex){
+        } catch (Exception ex) {
             System.out.println("");
         }
     }
